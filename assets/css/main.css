@@ -62,7 +62,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-
+	
 	.container.\31 25\25 {
 		width: 100%;
 		max-width: 1200px;
@@ -1346,7 +1346,7 @@
 		background: #444;
 		text-align: center;
 		text-transform: uppercase;
-		font-weight: 800;
+		font-weight: 500;
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		border-radius: 0.50em;
@@ -2008,7 +2008,7 @@
 			#nav {
 				position: absolute;
 				display: block;
-				top: 45em;
+				top: 0em;
 				left: 0;
 				width: 100%;
 				text-align: center;
@@ -2023,13 +2023,18 @@
 
 					#nav > ul > li {
 						display: inline-block;
-						text-align: center;
+						text-align: left;
 						padding: 0 1.5em 0 1.5em;
 					}
 
 						#nav > ul > li > ul {
-							display: none;
+						display: inline-block;
+						text-align: left;
 						}
+							#nav > ul > li > ul> li {
+							display: inline-block;
+							text-align: center;
+							}
 
 						#nav > ul > li > a, #nav > ul > li > span {
 							display: block;
@@ -2037,10 +2042,10 @@
 							color: rgba(255, 255, 255, 0.75);
 							text-transform: uppercase;
 							text-decoration: none;
-							font-size: 0.7em;
-							letter-spacing: 0.25em;
-							height: 5em;
-							line-height: 5em;
+							font-size: 0.6em;
+							letter-spacing: 0.20em;
+							height: 3em;
+							line-height: 3em;
 							-moz-transition: all .25s ease-in-out;
 							-webkit-transition: all .25s ease-in-out;
 							-o-transition: all .25s ease-in-out;
